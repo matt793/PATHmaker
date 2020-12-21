@@ -1,5 +1,5 @@
 # PATHmaker
-An automated script for sending Python programms to your shell's global PATH.
+An automated script for sending Python or bash programms to your shell's global PATH.
 
 
 
