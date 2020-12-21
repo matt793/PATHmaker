@@ -14,7 +14,7 @@ print("Add A/ Python /Or a Bash Script To PATH.")
 print(Fore.CYAN)
 
 def menu():
-    print("Input your shell: press [1] for bash, [2] for zsh, [3] for fish\n\n[4] to exit")
+    print("Input your shell: press [1] for bash, [2] for zsh, [3] for fish,\n\n[4] to exit")
     print()
     choice = input()
     print()
@@ -30,9 +30,11 @@ def menu():
         copy2 = os.system(f"sudo scp -r ~/Documents/{folder} /usr/local/bin/")
         print()
         print('Add Text below to vim:')
+        print()
         print(f"export PATH=$HOME/bin/{folder}:/usr/local/bin/{folder}:$PATH")
         
         def ready1():
+            print()
             print("Press y when ready")
             r = input()
 
@@ -51,9 +53,11 @@ def menu():
         copy2 = os.system(f"sudo scp -r ~/Documents/{folder} /usr/local/bin/")
         print()
         print('Add Text below to vim:')
+        print()
         print(f"export PATH=$HOME/bin/{folder}:/usr/local/bin/{folder}:$PATH")
         
         def ready2():
+            print()
             print("Press y when ready")
             r = input()
 
@@ -72,9 +76,11 @@ def menu():
         copy2 = os.system(f"sudo scp -r ~/Documents/{folder} /usr/local/bin/")
         print()
         print('Add Text below to vim:')
+        print()
         print(f"export PATH=$HOME/bin/{folder}:/usr/local/bin/{folder}:$PATH")
         
         def ready3():
+            print()
             print("Press y when ready")
             r = input()
 
