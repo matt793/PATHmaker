@@ -1,3 +1,3 @@
 #!/bin/bash
 
-pathmaker.py
+./pathmaker.py
